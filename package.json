@@ -1,0 +1,27 @@
+{
+  "name": "apimocking",
+  "version": "1.0.0",
+  "description": "Simple script to mock endpoints for integration between systems",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon --exec npx ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otavionmorais/APIMocking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otavionmorais/APIMocking/issues"
+  },
+  "homepage": "https://github.com/otavionmorais/APIMocking#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.2",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
