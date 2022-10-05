@@ -18,13 +18,16 @@ for (const endpointName of endpoints) {
     app[method as keyof Express](
       endpointName,
       (_req: Request, res: Response) => {
-        res.set(methodConfig.headers).send(methodConfig.body);
+        res
+          .set(methodConfig.headers)
+          .status(methodConfig.status)
+          .send(methodConfig.body);
       }
     );
-    console.log(`Endpoint ${endpointName} registered with method ${method}`);
+    console.info(`Endpoint ${endpointName} registered with method ${method}`);
   }
 }
 
 app.listen(port, () => {
-  console.log(`APIMocking listening on port ${port}`);
+  console.info(`APIMocking listening on port ${port}`);
 });

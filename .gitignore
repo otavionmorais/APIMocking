@@ -1,2 +1,3 @@
 endpoints/*.ts
 !endpoints/example.ts
+node_modules

@@ -1,6 +1,7 @@
 export interface IEndpointMethod {
   body?: Record<string, any>;
   headers?: Record<string, any>;
+  status: number;
 }
 
 export interface IEndpoint {

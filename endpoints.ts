@@ -5,6 +5,7 @@ const config: IEndpointsConfiguration = {
   endpoints: {
     '/example': {
       get: {
+        status: 200,
         body: {
           example:
             'This is an example body field that will be retuned when accessing /example.',
