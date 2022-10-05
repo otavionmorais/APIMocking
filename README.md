@@ -29,7 +29,9 @@ The configuration is done in the `endpoints.ts` file. The file has the following
 }
 ```
 
-The `port` field is the port that the server will listen to. The `endpoints` field is an object that contains the endpoints that will be mocked. The key of the object is the endpoint, and the value is an object that contains the methods that will be mocked. The key of the object is the method, and the value is an object that contains the status code, the body and the headers that will be returned when accessing the endpoint with the method.
+The `port` field is the port that the server will listen to. The `endpoints` field is an object that contains the endpoints that will be mocked.
+
+The key of the object is the endpoint path (must start with '/'), and the value is an object that contains the methods that will be mocked.
 
 For example, when accessing `http://localhost:3000/example` with the `GET` method, the server will return the following response body:
 
