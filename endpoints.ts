@@ -8,11 +8,11 @@ const config: IEndpointsConfiguration = {
         status: 200,
         body: {
           example:
-            'This is an example body field that will be retuned when accessing /example.',
+            'This is an example body field that will be returned when accessing /example.',
         },
         headers: {
           'example-header':
-            'This is an example header field that will be retuned when accessing /example.',
+            'This is an example header field that will be returned when accessing /example.',
         },
       },
     },

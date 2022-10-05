@@ -37,7 +37,7 @@ For example, when accessing `http://localhost:3000/example` with the `GET` metho
 
 ```json
 {
-  "example": "This is an example body field that will be retuned when accessing /example."
+  "example": "This is an example body field that will be returned when accessing /example."
 }
 ```
 
@@ -45,7 +45,7 @@ And the following headers:
 
 ```json
 {
-  "example-header": "This is an example header field that will be retuned when accessing /example."
+  "example-header": "This is an example header field that will be returned when accessing /example."
 }
 ```
 
