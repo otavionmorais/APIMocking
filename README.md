@@ -1,6 +1,6 @@
 # APIMocking
 
-Simple script to mock endpoints for integration between systems.You can mock responses of requests, simulating the response of other service.
+Simple script to mock endpoints for integration between systems.You can mock responses of HTTP requests, simulating the response of other service.
 
 ## Usage
 
