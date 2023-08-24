@@ -4,7 +4,7 @@ Simple script to mock endpoints for integration between systems.You can mock res
 
 ## Usage
 
-To use this script, you you need to install nodejs and npm. Then, you need to install the dependencies with `npm i`. After that, you can run the script with `npm run start`.
+To use this script, you you need to install nodejs. Clone this repository, install the dependencies with the command `npm i`. After that, you can run the script with the command `npm run start`.
 
 ## Configuration
 
